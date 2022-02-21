@@ -1,0 +1,70 @@
+* {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+/* use star to affect the whole page */
+
+h1 {
+    color: rgb(23, 48, 160);
+}
+
+strong {
+    font-weight: normal;
+}
+
+p {
+    color:rgb(253, 253, 253); 
+    background: cornflowerblue;
+    font-weight: normal;
+    text-transform: none; /* this is a comment */
+    font-style: normal;
+    line-height: 20px;
+    letter-spacing: normal;
+    text-decoration: normal;
+    font-size: normal;
+}
+
+body {
+    background-color: rgb(234, 253, 247);
+}
+
+#citation {
+
+    color: azure;
+}
+
+.new-class {
+    font-size: 40px;
+    background: chocolate;
+}
+
+a {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: yellow;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+#container {
+    background: crimson;
+    border-style: double;
+    border-color: rgb(148, 107, 55);
+    border-width: 20px;
+}
+
+#shape {
+    height: 20px;
+    width: 20px;
+    background-color: blueviolet;
+    border-radius: 20px; 
+    /* set to the same height and width to create circles*/
+}
